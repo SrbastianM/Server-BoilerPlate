@@ -1,0 +1,30 @@
+{
+   "name": "graphql-ts-server-boilerplate",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^9.6.61",
+      "nodemon": "^2.0.15",
+      "ts-node": "^10.4.0",
+      "ts-node-dev": "^1.1.8",
+      "tslib": "^2.3.1",
+      "tslint": "^6.1.3",
+      "tslint-config-prettier": "^1.18.0",
+      "typescript": "^3.9.10"
+   },
+   "dependencies": {
+      "@graphql-yoga/node": "0.1.0-alpha.3",
+      "@types/uuid": "^8.3.4",
+      "graphql": "^16.3.0",
+      "graphql-yoga": "^1.18.3",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.13",
+      "rxjs": "^7.5.2",
+      "typeorm": "0.2.41",
+      "uuid": "^8.3.2"
+   },
+   "scripts": {
+      "start": "nodemon --exec ts-node src/index.ts",
+      "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js"
+   }
+}
