@@ -1,7 +1,6 @@
 type Query {
-      ping: String
-      hello: String
+      hello(name: String): String!
 }
 type Mutation {
       register(email: String!, password: String!): Boolean
- }
+}
